@@ -486,14 +486,23 @@ ul {
     font-family: 'Alfa Slab One', cursive;
     font-weight: 400;
     font-size: 15px;
+    
 }
 
 .btn:hover {
-    color: red;
+/* color: red;*/
+    
     border: 1px solid red;
-    background-color: #fff;
+    background-color: white;
     transition: 0.5s all ease-in-out;
-    color: black;
+    color: red !important;
+
+}
+.btn a:hover {
+ color: red;
+    
+   
+
 }
 
 /**************RESERVATION CSS END************/
